@@ -51,7 +51,7 @@ menu_option = st.session_state.get("menu_option", None)
 if menu_option == "YouTube Cooking Assistant":
     # AI YouTube Video Summarizer
     st.title("Youtube Cooking Assitant")
-    youtube_url = st.text_input("Enter the YouTube video URL")
+    youtube_url = st.text_input("Enter the YouTube cooking video URL")
 
     #Display the video if a URL is provided
     if youtube_url:
